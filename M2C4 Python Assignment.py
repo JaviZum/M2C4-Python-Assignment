@@ -33,8 +33,12 @@ raiz = math.sqrt(flotante) #raiz cuadrada del numero flotante. 13.95
 
 
 #Exercise 4
-primer_elemento_diccionario = list(espasa.items())[0]  #primer key/elemento del diccionario
-
+#Anulada esta forma, por indicar el instructor que la que no esta comentada es la mejor práctica.
+#primer_elemento_diccionario = list(espasa.items())[0]  #primer key/elemento del diccionario
+# Ejemplo de selección del primer elemento del diccionario (ALTERNATIVA INSTRUCTOR)
+#espasa = {"ar": "armario", "em": "empotrado", "mur": "murcielago"}
+primer_elemento_diccionario = next(iter(espasa.items()))
+print(primer_elemento_diccionario)
 
 
 #Exercise 5
